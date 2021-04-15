@@ -1,0 +1,66 @@
+
+/* common css */
+html,
+body {
+  background-color: white;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+/* text */
+.text-vt { font-family: 'VT323', monospace; }
+.text-space { letter-spacing: .1em!important; }
+
+/* debugging */
+.border { 
+  border: 1px solid silver!important;
+  border-radius: 5px;
+}
+.border-right { 
+  border-right: 1px solid silver!important;
+  border-radius: 5px;
+}
+
+/* background */
+.bg-pokemon {
+  background: url(https://i.imgur.com/2gfwG.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-pokemon-color {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1005%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 0.59)'%3e%3c/rect%3e%3cpath d='M1440 0L1381.09 0L1440 147.58z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1381.09 0L1440 147.58L1440 290.73L908.9199999999998 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M908.92 0L1440 290.73L1440 414.15000000000003L385.04999999999995 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M385.04999999999995 0L1440 414.15000000000003L1440 454.42L337.79999999999995 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L274.03 560L0 333.57z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 333.57L274.03 560L671.0699999999999 560L0 162.72z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 162.72000000000003L671.0699999999999 560L1118.3 560L0 140.78000000000003z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 140.78000000000003L1118.3 560L1151.87 560L0 122.01000000000003z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1005'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+/* quasar override notification */
+
+.q-notification  {
+  border-radius: 10px;
+  min-width: 320px;
+}
+
+.q-notification__badge {
+  background-color: white;
+  color: #353535;
+  font-weight: bold;
+}
+
+.q-notification__message {
+  font-size: 16px!important;
+}
+
+.q-notification__wrapper {
+  padding-bottom: 5px!important;
+  padding-top: 5px!important;
+}
+
+.q-notification {
+  transition: transform 0.2s, opacity 0.2s
+}
